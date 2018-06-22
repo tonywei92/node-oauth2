@@ -1,6 +1,6 @@
 //MARK: --- REQUIRE MODULES
 
-const port = 8080
+const port = 80
 const mySqlConnection = require('./databaseHelpers/mySqlWrapper')
 const accessTokenDBHelper = require('./databaseHelpers/accessTokensDBHelper')(mySqlConnection)
 const userDBHelper = require('./databaseHelpers/userDBHelper')(mySqlConnection)
