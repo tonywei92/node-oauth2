@@ -11,7 +11,8 @@ const expressApp = express()
 expressApp.oauth = oAuth2Server({
   model: oAuthModel,
   grants: ['password'],
-  debug: true
+  debug: true,
+  accessTokenLifetime: 600
 })
 
 const restrictedAreaRoutesMethods = require('./restrictedArea/restrictedAreaRoutesMethods.js')
