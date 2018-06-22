@@ -17,7 +17,7 @@ function initConnection() {
   //set the global connection object
    connection = mySql.createConnection({
 
-    host: 'http://us-cdbr-iron-east-04.cleardb.net',
+    host: 'us-cdbr-iron-east-04.cleardb.net',
     user: 'b0f7ac4af95366',
     password: 'cefe1b2b',
     database: 'heroku_8e7c6d1780b0f69'
