@@ -17,7 +17,9 @@ function registerUser(req, res){
     console.log(`authRoutesMethods: registerUser: req.body is:`, req.body);
 
     //query db to see if the user exists already
+    console.log('body',req.body);
     userDBHelper.doesUserExist(req.body.username, (sqlError, doesUserExist) => {
+
 
       //check if the user exists
       if (sqlError !== null || doesUserExist){

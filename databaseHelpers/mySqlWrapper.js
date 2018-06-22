@@ -17,10 +17,10 @@ function initConnection() {
   //set the global connection object
    connection = mySql.createConnection({
 
-    host: 'localhost',
-    user: 'root',
-    password: 'databasePassword',
-    database: 'oAuth2Test'
+    host: 'https://us-cdbr-iron-east-04.cleardb.net',
+    user: 'b0f7ac4af95366',
+    password: 'cefe1b2b',
+    database: 'heroku_8e7c6d1780b0f69'
   })
 }
 
